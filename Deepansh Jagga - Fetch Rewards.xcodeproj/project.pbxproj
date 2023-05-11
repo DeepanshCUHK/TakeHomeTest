@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2430F3A2A0C732400125B9A /* UIImageView+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2430F392A0C732400125B9A /* UIImageView+Cache.swift */; };
+		B244E36629275E7D005F9336 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B244E36529275E7D005F9336 /* RecipeDetailViewController.swift */; };
+		B244E37029275FF9005F9336 /* RecipeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B244E36F29275FF9005F9336 /* RecipeDetailViewModel.swift */; };
+		B27BA4C92927141E00EBDC1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27BA4C82927141E00EBDC1D /* AppDelegate.swift */; };
+		B27BA4CB2927141E00EBDC1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27BA4CA2927141E00EBDC1D /* SceneDelegate.swift */; };
+		B27BA4D02927141E00EBDC1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27BA4CE2927141E00EBDC1D /* Main.storyboard */; };
+		B27BA4D22927142400EBDC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B27BA4D12927142400EBDC1D /* Assets.xcassets */; };
+		B27BA4D52927142400EBDC1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27BA4D32927142400EBDC1D /* LaunchScreen.storyboard */; };
+		B27BA4E02927142500EBDC1D /* Deepansh_Jagga___Fetch_RewardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27BA4DF2927142500EBDC1D /* Deepansh_Jagga___Fetch_RewardsTests.swift */; };
+		B27BA4EA2927142500EBDC1D /* Deepansh_Jagga___Fetch_RewardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27BA4E92927142500EBDC1D /* Deepansh_Jagga___Fetch_RewardsUITests.swift */; };
+		B27BA4EC2927142500EBDC1D /* Deepansh_Jagga___Fetch_RewardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27BA4EB2927142500EBDC1D /* Deepansh_Jagga___Fetch_RewardsUITestsLaunchTests.swift */; };
+		B27BA4FA29271CDB00EBDC1D /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27BA4F929271CDB00EBDC1D /* Recipe.swift */; };
+		B27BA4FC29271DF000EBDC1D /* RecipeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27BA4FB29271DF000EBDC1D /* RecipeDetail.swift */; };
+		B27BA4FE2927348100EBDC1D /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27BA4FD2927348100EBDC1D /* RecipeTableViewController.swift */; };
+		B27BA500292735F300EBDC1D /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27BA4FF292735F300EBDC1D /* RecipeTableViewCell.swift */; };
+		B27BA5022927374000EBDC1D /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27BA5012927373F00EBDC1D /* RecipeViewModel.swift */; };
+		B27BA5042927381000EBDC1D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27BA5032927381000EBDC1D /* NetworkManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B27BA4DC2927142500EBDC1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B27BA4BD2927141D00EBDC1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B27BA4C42927141E00EBDC1D;
+			remoteInfo = "Deepansh Jagga - Fetch Rewards";
+		};
+		B27BA4E62927142500EBDC1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B27BA4BD2927141D00EBDC1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B27BA4C42927141E00EBDC1D;
+			remoteInfo = "Deepansh Jagga - Fetch Rewards";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2430F392A0C732400125B9A /* UIImageView+Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Cache.swift"; sourceTree = "<group>"; };
+		B244E36529275E7D005F9336 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
+		B244E36F29275FF9005F9336 /* RecipeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewModel.swift; sourceTree = "<group>"; };
+		B27BA4C52927141E00EBDC1D /* Deepansh Jagga - Fetch Rewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deepansh Jagga - Fetch Rewards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27BA4C82927141E00EBDC1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B27BA4CA2927141E00EBDC1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B27BA4CF2927141E00EBDC1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B27BA4D12927142400EBDC1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B27BA4D42927142400EBDC1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B27BA4D62927142400EBDC1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B27BA4DB2927142500EBDC1D /* Deepansh Jagga - Fetch RewardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deepansh Jagga - Fetch RewardsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27BA4DF2927142500EBDC1D /* Deepansh_Jagga___Fetch_RewardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Deepansh_Jagga___Fetch_RewardsTests.swift"; sourceTree = "<group>"; };
+		B27BA4E52927142500EBDC1D /* Deepansh Jagga - Fetch RewardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deepansh Jagga - Fetch RewardsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27BA4E92927142500EBDC1D /* Deepansh_Jagga___Fetch_RewardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Deepansh_Jagga___Fetch_RewardsUITests.swift"; sourceTree = "<group>"; };
+		B27BA4EB2927142500EBDC1D /* Deepansh_Jagga___Fetch_RewardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Deepansh_Jagga___Fetch_RewardsUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		B27BA4F929271CDB00EBDC1D /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		B27BA4FB29271DF000EBDC1D /* RecipeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetail.swift; sourceTree = "<group>"; };
+		B27BA4FD2927348100EBDC1D /* RecipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
+		B27BA4FF292735F300EBDC1D /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
+		B27BA5012927373F00EBDC1D /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
+		B27BA5032927381000EBDC1D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B27BA4C22927141E00EBDC1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27BA4D82927142500EBDC1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27BA4E22927142500EBDC1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B244E36129273B8D005F9336 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B2430F392A0C732400125B9A /* UIImageView+Cache.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B244E36429275E59005F9336 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B27BA5032927381000EBDC1D /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B244E36729275F5F005F9336 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B27BA4FB29271DF000EBDC1D /* RecipeDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B244E36829275F6E005F9336 /* RecipeList */ = {
+			isa = PBXGroup;
+			children = (
+				B244E36C29275FA1005F9336 /* View */,
+				B244E36B29275F99005F9336 /* ViewModel */,
+				B244E36A29275F91005F9336 /* Model */,
+			);
+			path = RecipeList;
+			sourceTree = "<group>";
+		};
+		B244E36929275F88005F9336 /* RecipeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				B244E36E29275FC8005F9336 /* View */,
+				B244E36D29275FC2005F9336 /* ViewModel */,
+				B244E36729275F5F005F9336 /* Model */,
+			);
+			path = RecipeDetails;
+			sourceTree = "<group>";
+		};
+		B244E36A29275F91005F9336 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B27BA4F929271CDB00EBDC1D /* Recipe.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B244E36B29275F99005F9336 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B27BA5012927373F00EBDC1D /* RecipeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B244E36C29275FA1005F9336 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B27BA4FD2927348100EBDC1D /* RecipeTableViewController.swift */,
+				B27BA4FF292735F300EBDC1D /* RecipeTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B244E36D29275FC2005F9336 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B244E36F29275FF9005F9336 /* RecipeDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B244E36E29275FC8005F9336 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B244E36529275E7D005F9336 /* RecipeDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B27BA4BC2927141D00EBDC1D = {
+			isa = PBXGroup;
+			children = (
+				B27BA4C72927141E00EBDC1D /* Deepansh Jagga - Fetch Rewards */,
+				B27BA4DE2927142500EBDC1D /* Deepansh Jagga - Fetch RewardsTests */,
+				B27BA4E82927142500EBDC1D /* Deepansh Jagga - Fetch RewardsUITests */,
+				B27BA4C62927141E00EBDC1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B27BA4C62927141E00EBDC1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B27BA4C52927141E00EBDC1D /* Deepansh Jagga - Fetch Rewards.app */,
+				B27BA4DB2927142500EBDC1D /* Deepansh Jagga - Fetch RewardsTests.xctest */,
+				B27BA4E52927142500EBDC1D /* Deepansh Jagga - Fetch RewardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B27BA4C72927141E00EBDC1D /* Deepansh Jagga - Fetch Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				B244E36929275F88005F9336 /* RecipeDetails */,
+				B244E36829275F6E005F9336 /* RecipeList */,
+				B244E36129273B8D005F9336 /* Extension */,
+				B244E36429275E59005F9336 /* Network */,
+				B27BA4F829271A2300EBDC1D /* Controllers */,
+				B27BA4CA2927141E00EBDC1D /* SceneDelegate.swift */,
+				B27BA4CE2927141E00EBDC1D /* Main.storyboard */,
+				B27BA4D32927142400EBDC1D /* LaunchScreen.storyboard */,
+				B27BA4D12927142400EBDC1D /* Assets.xcassets */,
+				B27BA4D62927142400EBDC1D /* Info.plist */,
+			);
+			path = "Deepansh Jagga - Fetch Rewards";
+			sourceTree = "<group>";
+		};
+		B27BA4DE2927142500EBDC1D /* Deepansh Jagga - Fetch RewardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B27BA4DF2927142500EBDC1D /* Deepansh_Jagga___Fetch_RewardsTests.swift */,
+			);
+			path = "Deepansh Jagga - Fetch RewardsTests";
+			sourceTree = "<group>";
+		};
+		B27BA4E82927142500EBDC1D /* Deepansh Jagga - Fetch RewardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B27BA4E92927142500EBDC1D /* Deepansh_Jagga___Fetch_RewardsUITests.swift */,
+				B27BA4EB2927142500EBDC1D /* Deepansh_Jagga___Fetch_RewardsUITestsLaunchTests.swift */,
+			);
+			path = "Deepansh Jagga - Fetch RewardsUITests";
+			sourceTree = "<group>";
+		};
+		B27BA4F829271A2300EBDC1D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B27BA4C82927141E00EBDC1D /* AppDelegate.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B27BA4C42927141E00EBDC1D /* Deepansh Jagga - Fetch Rewards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27BA4EF2927142500EBDC1D /* Build configuration list for PBXNativeTarget "Deepansh Jagga - Fetch Rewards" */;
+			buildPhases = (
+				B27BA4C12927141E00EBDC1D /* Sources */,
+				B27BA4C22927141E00EBDC1D /* Frameworks */,
+				B27BA4C32927141E00EBDC1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deepansh Jagga - Fetch Rewards";
+			productName = "Deepansh Jagga - Fetch Rewards";
+			productReference = B27BA4C52927141E00EBDC1D /* Deepansh Jagga - Fetch Rewards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B27BA4DA2927142500EBDC1D /* Deepansh Jagga - Fetch RewardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27BA4F22927142500EBDC1D /* Build configuration list for PBXNativeTarget "Deepansh Jagga - Fetch RewardsTests" */;
+			buildPhases = (
+				B27BA4D72927142500EBDC1D /* Sources */,
+				B27BA4D82927142500EBDC1D /* Frameworks */,
+				B27BA4D92927142500EBDC1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B27BA4DD2927142500EBDC1D /* PBXTargetDependency */,
+			);
+			name = "Deepansh Jagga - Fetch RewardsTests";
+			productName = "Deepansh Jagga - Fetch RewardsTests";
+			productReference = B27BA4DB2927142500EBDC1D /* Deepansh Jagga - Fetch RewardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B27BA4E42927142500EBDC1D /* Deepansh Jagga - Fetch RewardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27BA4F52927142500EBDC1D /* Build configuration list for PBXNativeTarget "Deepansh Jagga - Fetch RewardsUITests" */;
+			buildPhases = (
+				B27BA4E12927142500EBDC1D /* Sources */,
+				B27BA4E22927142500EBDC1D /* Frameworks */,
+				B27BA4E32927142500EBDC1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B27BA4E72927142500EBDC1D /* PBXTargetDependency */,
+			);
+			name = "Deepansh Jagga - Fetch RewardsUITests";
+			productName = "Deepansh Jagga - Fetch RewardsUITests";
+			productReference = B27BA4E52927142500EBDC1D /* Deepansh Jagga - Fetch RewardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B27BA4BD2927141D00EBDC1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B27BA4C42927141E00EBDC1D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					B27BA4DA2927142500EBDC1D = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B27BA4C42927141E00EBDC1D;
+					};
+					B27BA4E42927142500EBDC1D = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B27BA4C42927141E00EBDC1D;
+					};
+				};
+			};
+			buildConfigurationList = B27BA4C02927141E00EBDC1D /* Build configuration list for PBXProject "Deepansh Jagga - Fetch Rewards" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B27BA4BC2927141D00EBDC1D;
+			productRefGroup = B27BA4C62927141E00EBDC1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B27BA4C42927141E00EBDC1D /* Deepansh Jagga - Fetch Rewards */,
+				B27BA4DA2927142500EBDC1D /* Deepansh Jagga - Fetch RewardsTests */,
+				B27BA4E42927142500EBDC1D /* Deepansh Jagga - Fetch RewardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B27BA4C32927141E00EBDC1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27BA4D52927142400EBDC1D /* LaunchScreen.storyboard in Resources */,
+				B27BA4D22927142400EBDC1D /* Assets.xcassets in Resources */,
+				B27BA4D02927141E00EBDC1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27BA4D92927142500EBDC1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27BA4E32927142500EBDC1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B27BA4C12927141E00EBDC1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2430F3A2A0C732400125B9A /* UIImageView+Cache.swift in Sources */,
+				B244E36629275E7D005F9336 /* RecipeDetailViewController.swift in Sources */,
+				B27BA5042927381000EBDC1D /* NetworkManager.swift in Sources */,
+				B244E37029275FF9005F9336 /* RecipeDetailViewModel.swift in Sources */,
+				B27BA4C92927141E00EBDC1D /* AppDelegate.swift in Sources */,
+				B27BA4FE2927348100EBDC1D /* RecipeTableViewController.swift in Sources */,
+				B27BA500292735F300EBDC1D /* RecipeTableViewCell.swift in Sources */,
+				B27BA5022927374000EBDC1D /* RecipeViewModel.swift in Sources */,
+				B27BA4FC29271DF000EBDC1D /* RecipeDetail.swift in Sources */,
+				B27BA4CB2927141E00EBDC1D /* SceneDelegate.swift in Sources */,
+				B27BA4FA29271CDB00EBDC1D /* Recipe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27BA4D72927142500EBDC1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27BA4E02927142500EBDC1D /* Deepansh_Jagga___Fetch_RewardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27BA4E12927142500EBDC1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27BA4EA2927142500EBDC1D /* Deepansh_Jagga___Fetch_RewardsUITests.swift in Sources */,
+				B27BA4EC2927142500EBDC1D /* Deepansh_Jagga___Fetch_RewardsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B27BA4DD2927142500EBDC1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B27BA4C42927141E00EBDC1D /* Deepansh Jagga - Fetch Rewards */;
+			targetProxy = B27BA4DC2927142500EBDC1D /* PBXContainerItemProxy */;
+		};
+		B27BA4E72927142500EBDC1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B27BA4C42927141E00EBDC1D /* Deepansh Jagga - Fetch Rewards */;
+			targetProxy = B27BA4E62927142500EBDC1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B27BA4CE2927141E00EBDC1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27BA4CF2927141E00EBDC1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B27BA4D32927142400EBDC1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27BA4D42927142400EBDC1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B27BA4ED2927142500EBDC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B27BA4EE2927142500EBDC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B27BA4F02927142500EBDC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3N74L3HS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Deepansh Jagga - Fetch Rewards/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deepansh.Deepansh-Jagga---Fetch-Rewards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B27BA4F12927142500EBDC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3N74L3HS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Deepansh Jagga - Fetch Rewards/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deepansh.Deepansh-Jagga---Fetch-Rewards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B27BA4F32927142500EBDC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3N74L3HS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deepansh.Deepansh-Jagga---Fetch-RewardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deepansh Jagga - Fetch Rewards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Deepansh Jagga - Fetch Rewards";
+			};
+			name = Debug;
+		};
+		B27BA4F42927142500EBDC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3N74L3HS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deepansh.Deepansh-Jagga---Fetch-RewardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deepansh Jagga - Fetch Rewards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Deepansh Jagga - Fetch Rewards";
+			};
+			name = Release;
+		};
+		B27BA4F62927142500EBDC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3N74L3HS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deepansh.Deepansh-Jagga---Fetch-RewardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Deepansh Jagga - Fetch Rewards";
+			};
+			name = Debug;
+		};
+		B27BA4F72927142500EBDC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3N74L3HS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deepansh.Deepansh-Jagga---Fetch-RewardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Deepansh Jagga - Fetch Rewards";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B27BA4C02927141E00EBDC1D /* Build configuration list for PBXProject "Deepansh Jagga - Fetch Rewards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27BA4ED2927142500EBDC1D /* Debug */,
+				B27BA4EE2927142500EBDC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B27BA4EF2927142500EBDC1D /* Build configuration list for PBXNativeTarget "Deepansh Jagga - Fetch Rewards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27BA4F02927142500EBDC1D /* Debug */,
+				B27BA4F12927142500EBDC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B27BA4F22927142500EBDC1D /* Build configuration list for PBXNativeTarget "Deepansh Jagga - Fetch RewardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27BA4F32927142500EBDC1D /* Debug */,
+				B27BA4F42927142500EBDC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B27BA4F52927142500EBDC1D /* Build configuration list for PBXNativeTarget "Deepansh Jagga - Fetch RewardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27BA4F62927142500EBDC1D /* Debug */,
+				B27BA4F72927142500EBDC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B27BA4BD2927141D00EBDC1D /* Project object */;
+}
